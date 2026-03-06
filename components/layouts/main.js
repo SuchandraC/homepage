@@ -16,9 +16,9 @@ const Main = ({ children, router }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="My Homepage" />
-        <meta name="author" content="Your Name" />
+        <meta name="author" content="Suchandra Chakraborty" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <title>Your Name - Homepage</title>
+        <title>Suchandra Chakraborty - Homepage</title>
       </Head>
 
       <Navbar path={router.asPath} />
