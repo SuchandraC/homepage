@@ -63,7 +63,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          I am a Computer Science Master's student at the{' '}
+          I am a Computer Science Master&apos;s student at the{' '}
           <Link href="https://www.upenn.edu" target="_blank">
             University of Pennsylvania
           </Link>{' '}
@@ -99,7 +99,7 @@ const Home = () => (
     Beyond Tech
   </Heading>
   <Paragraph>
-    When I'm not building AI systems or reading research papers, you'll find me 
+    When I am not building AI systems or reading research papers, you'll find me 
   drinking matcha, watching Peanuts, painting, cooking, travelling, or capturing moments through 
   photography and exploring new media.
   </Paragraph>

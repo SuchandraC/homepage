@@ -199,7 +199,7 @@ const Works = () => (
       Built a conversational AI chatbot trained on BBC Sherlock scripts to generate 
       character-specific dialogue using fine-tuned transformer models. Implemented 
       context-aware response generation with Hugging Face Transformers, creating a 
-      bot that mimics Sherlock Holmes' distinctive speaking style and personality. 
+      bot that mimics Sherlock Holmes&apos; distinctive speaking style and personality. 
       Trained on dialogue data with character attribution for authentic character voice.
     </Text>
     
