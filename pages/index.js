@@ -177,7 +177,7 @@ export default Home
               transition="background 0.2s"
             >
               <Heading as="h4" fontSize="md" mb={2}>
-                🚀 Featured Project
+                 Featured Project
               </Heading>
               <p>Check out my latest project on GitHub</p>
             </Box>
@@ -196,7 +196,7 @@ export default Home
               transition="background 0.2s"
             >
               <Heading as="h4" fontSize="md" mb={2}>
-                💼 Connect with me
+                 Connect with me
               </Heading>
               <p>Let&apos;s connect on LinkedIn</p>
             </Box>
