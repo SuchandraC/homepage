@@ -99,7 +99,7 @@ const Home = () => (
     Beyond Tech
   </Heading>
   <Paragraph>
-    When I am not building AI systems or reading research papers, you'll find me 
+    When I am not building AI systems or reading research papers, you will find me 
   drinking matcha, watching Peanuts, painting, cooking, travelling, or capturing moments through 
   photography and exploring new media.
   </Paragraph>
