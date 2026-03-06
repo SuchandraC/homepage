@@ -215,7 +215,7 @@ const Papers = () => {
           
           <Text mb={6} color={textColor}>
             My academic research and publications in machine learning, 
-            big data, and related fields.
+            natural language processing, and related fields.
           </Text>
         </Section>
 
