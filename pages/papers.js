@@ -193,7 +193,7 @@ const Papers = () => {
             </Text>
             <Button
               as={Link}
-              href="/papers/Suchandra Chakraborty-CV.pdf"
+              href="/papers/CIS_2027_Suchandrac.pdf"
               target="_blank"
               colorScheme="teal"
               leftIcon={<DownloadIcon />}
@@ -244,7 +244,7 @@ const Papers = () => {
               _hover={{ bg: hoverBg }}
               transition="all 0.2s"
             >
-              <Text fontWeight="bold" mb={2}>📄 CV (Academic)</Text>
+              <Text fontWeight="bold" mb={2}> CV (Academic)</Text>
               <Text fontSize="sm" color={textColor} mb={3}>
                 Detailed academic curriculum vitae
               </Text>
@@ -268,7 +268,7 @@ const Papers = () => {
               _hover={{ bg: hoverBg }}
               transition="all 0.2s"
             >
-              <Text fontWeight="bold" mb={2}>📊 Portfolio Slides</Text>
+              <Text fontWeight="bold" mb={2}>Portfolio Slides</Text>
               <Text fontSize="sm" color={textColor} mb={3}>
                 Presentation of my work and projects
               </Text>

@@ -48,7 +48,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/pfp4.jpeg"
+              src="/images/pic5.jpeg"
               alt="Profile image"
               borderRadius="full"
               width="100"
@@ -122,7 +122,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/suchandra-chakraborty-927asa279/" target="_blank">
+            <Link href="https://www.linkedin.com/in/suchandrac" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
