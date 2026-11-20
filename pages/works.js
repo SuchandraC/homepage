@@ -10,7 +10,141 @@ const Works = () => (
       </Heading>
 
       {/*<SimpleGrid columns={[1, 1, 2]} gap={6}>*/}
+  {/* GAPSA Assistant */}
   <Section>
+    <Box
+      borderRadius="lg"
+      p={4}
+      bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+      _hover={{ bg: useColorModeValue('whiteAlpha.700', 'whiteAlpha.300') }}
+      transition="all 0.2s"
+    >
+      <Box
+        borderRadius="lg"
+        mb={3}
+        overflow="hidden"
+        h="420px"
+        bg={useColorModeValue('gray.100', 'whiteAlpha.100')}
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
+      >
+        <Image
+          src="/papers/gapsa-assistant.jpg"
+          alt="GAPSA Assistant chat widget answering a question with a cited source"
+          borderRadius="md"
+          objectFit="contain"
+          h="100%"
+        />
+      </Box>
+
+      <Text fontSize="xl" fontWeight="bold" mb={2}>
+        GAPSA Assistant - AI Q&amp;A for Penn Grad Students
+      </Text>
+
+      <Text fontSize="sm" color={useColorModeValue('gray.600', 'gray.400')} mb={3}>
+        Built an AI assistant on gapsa.upenn.edu that answers Penn graduate students&apos;
+        questions about funding, events and contacts using only GAPSA&apos;s 301 pages, with
+        source links. Designed a figure check that blocks any number or date missing from
+        the sources, plus nightly re-crawls with safety checks. Scored 80.0% correct or
+        partial on an independent held-out set (LLM-judged).
+      </Text>
+
+      <Text fontSize="xs" color="teal.500" mb={3}>
+        Python • FastAPI • Groq LLM tool calling • BM25 retrieval • Neon Postgres • GitHub Actions
+      </Text>
+
+      <Box>
+        <Button
+          as={Link}
+          href="https://gapsa.upenn.edu"
+          target="_blank"
+          size="sm"
+          colorScheme="teal"
+          variant="outline"
+          mr={2}
+          mb={2}
+        >
+          Live Site
+        </Button>
+        <Button
+          as={Link}
+          href="https://gapsa-assistant.onrender.com"
+          target="_blank"
+          size="sm"
+          colorScheme="teal"
+          variant="outline"
+          mb={2}
+        >
+          Demo
+        </Button>
+      </Box>
+    </Box>
+  </Section>
+
+  {/* Tiny Twin */}
+  <Section delay={0.05}>
+    <Box
+      borderRadius="lg"
+      p={4}
+      bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+      _hover={{ bg: useColorModeValue('whiteAlpha.700', 'whiteAlpha.300') }}
+      transition="all 0.2s"
+    >
+      <Box borderRadius="lg" mb={3} overflow="hidden">
+        <Image
+          src="/papers/tiny-twin.jpg"
+          alt="Tiny Twin turning a photo of a cactus into a 28-piece brick model"
+          borderRadius="md"
+          objectFit="cover"
+          w="100%"
+        />
+      </Box>
+
+      <Text fontSize="xl" fontWeight="bold" mb={2}>
+        Tiny Twin - Photo to Buildable Brick Model
+      </Text>
+
+      <Text fontSize="sm" color={useColorModeValue('gray.600', 'gray.400')} mb={3}>
+        Built a web app that turns a photo of something you love into a small brick
+        model you can actually build. A vision LLM describes the subject as parts; a
+        composer turns them into real pieces and checks, stud by stud, that they hold
+        together. Cut one model from 630 pieces to 96; zero crashes in 1,447 fuzz tests.
+      </Text>
+
+      <Text fontSize="xs" color="teal.500" mb={3}>
+        JavaScript • HTML5 Canvas • Claude API • Node.js • GitHub Pages
+      </Text>
+
+      <Box>
+        <Button
+          as={Link}
+          href="https://suchandrac.github.io/small-enough-to-build/tiny-twin/"
+          target="_blank"
+          size="sm"
+          colorScheme="teal"
+          variant="outline"
+          mr={2}
+          mb={2}
+        >
+          Live Site
+        </Button>
+        <Button
+          as={Link}
+          href="https://github.com/SuchandraC/small-enough-to-build"
+          target="_blank"
+          size="sm"
+          colorScheme="teal"
+          variant="outline"
+          mb={2}
+        >
+          GitHub
+        </Button>
+      </Box>
+    </Box>
+  </Section>
+
+  <Section delay={0.05}>
     <Box
       borderRadius="lg"
       p={4}
