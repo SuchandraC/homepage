@@ -193,7 +193,7 @@ const Papers = () => {
             </Text>
             <Button
               as={Link}
-              href="/papers/CIS_2027_Suchandrac.pdf"
+              href="/papers/Suchandra_Chakraborty_Resume.pdf"
               target="_blank"
               colorScheme="teal"
               leftIcon={<DownloadIcon />}
