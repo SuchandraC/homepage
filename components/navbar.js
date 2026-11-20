@@ -16,7 +16,9 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub, IoDocumentText } from 'react-icons/io5'
+
+const RESUME_PATH = '/papers/Suchandra_Chakraborty_Resume.pdf'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -85,7 +87,21 @@ const Navbar = props => {
           <LinkItem href="/papers" path={path}>
             Papers
           </LinkItem>
-          {/* 
+          <Link
+            href={RESUME_PATH}
+            target="_blank"
+            rel="noopener noreferrer"
+            p={2}
+            borderRadius="md"
+            color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+          >
+            <IoDocumentText />
+            Resume
+          </Link>
+          {/*
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
@@ -124,6 +140,14 @@ const Navbar = props => {
                 {/*<MenuLink href="/posts">Posts</MenuLink>*/}
                 {/* <MenuLink href="/photography">Photography</MenuLink> */}
                 <MenuLink href="/papers">Papers</MenuLink>
+                <MenuItem
+                  as={Link}
+                  href={RESUME_PATH}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume
+                </MenuItem>
                 <MenuItem
                   as={Link}
                   href="https://github.com/SuchandraC"
